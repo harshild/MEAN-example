@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-angularjs-example",
+  "main": "server.js",
+  "dependencies" : {
+    "express"    : "~4.7.2"
+
+  }
+}

@@ -1,0 +1,7 @@
+<div ng-app="login" ng-controller='loginctrl'>
+    <label>First Name : </label>
+    <input ng-model="firstname" ng-change="dataEntered()">
+    <label>Last Name : </label>
+    <input ng-model="lastname" ng-change="dataEntered()">
+    <div ng-hide = "!isFullNameAvailable()">Hello {{ fullname }}</div>
+</div>
